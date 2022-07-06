@@ -105,3 +105,59 @@ cleaer
 clear
 pwd
 logout
+ls -l
+mkdir practicelab
+cd practicelab/
+ls -l
+pwd
+mv /home/edureka/Desktop/sample-project/ .
+ls -l
+cd sample-project/
+ls -l
+more index.html 
+clear
+pwd
+cd
+ls -l
+git init
+git status
+touch hello.txt
+touch hello2.txt
+git status
+git add hello.txt hello2.txt 
+git status
+git add practicelab/
+git status
+git commit -m "practicelab"
+git config --global user.email "mkkhizer08@gmail.com"
+git config --global user.name "mkhizer08"
+git commit -m "practicelab"
+clear
+git log
+git status 
+git add .
+git status 
+git log
+git remote -v
+git branch 
+git remote add origin https://github.com/mkhizer08/practicelab.git
+git remote -v
+git branch
+git branch -M main
+git branch
+git push -u origin main
+clear
+git log
+pwd
+ls -l
+touch yes.txt
+git add yes.txt 
+git push -u origin main
+ls -l
+git commit -m "new"
+git push -u origin main
+ls -l
+cleatr
+clear
+git remote -v
+git status
